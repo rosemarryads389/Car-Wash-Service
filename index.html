@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Wash Services</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Our Car Wash Services</h2>
+        <p>We provide professional car washing and detailing services to keep your vehicle looking like new.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Exterior Wash</h3>
+                <p>Basic exterior cleaning using high-quality products.</p>
+            </div>
+            <div class="service">
+                <h3>Interior Detailing</h3>
+                <p>Thorough cleaning of interior surfaces, including vacuuming and polishing.</p>
+            </div>
+            <div class="service">
+                <h3>Full Detail</h3>
+                <p>Complete cleaning and detailing both inside and outside of the vehicle.</p>
+            </div>
+            <div class="service">
+                <h3>Additional Services</h3>
+                <p>We also offer waxing, tire shining, and other add-ons to enhance your car's appearance.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries and appointments, please contact us at:</p>
+        <p>Email: info@carwash.com<br>
+        Phone: 982-498-7690</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Car Wash Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
